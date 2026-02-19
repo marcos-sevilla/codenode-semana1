@@ -20,7 +20,7 @@
         <form action="index.php" method="POST">
             <label for="nombre">Escribe tu nombre:</label><br>
             <input type="text" id="nombre" name="nombre" required>
-            <button type="submit">Enviar a PHP</button>
+            <button type="submit">Enviar</button>
         </form>
 
         <section class="respuesta">
