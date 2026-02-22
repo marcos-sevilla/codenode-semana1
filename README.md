@@ -1,17 +1,34 @@
-# Codenode - Semana 1
+# 🖌️ Miniature Painter Guides - Academia de Pintura
 
-Este repositorio contiene la resolución de la tarea correspondiente a la primera semana de las prácticas de DAM. 
+Este repositorio contiene el proyecto de la primera semana para el Grado Superior de **DAM**. Ha evolucionado de un formulario básico a una plataforma interactiva y semántica orientada a la comunidad de pintores de miniaturas.
 
-## 📋 Descripción
-El objetivo del proyecto es crear una interfaz web funcional que permita la entrada de datos mediante un formulario y su posterior procesamiento utilizando PHP en el lado del servidor.
+## 🚀 Novedades de esta versión
+Hemos profesionalizado la estructura siguiendo estándares de desarrollo moderno:
+* **HTML5 Semántico**: Uso estricto de etiquetas como `<main>`, `<article>`, `<fieldset>`, `<legend>` y `<hgroup>` para mejorar la accesibilidad y el SEO.
+* **Interactividad con JavaScript**: Validación en el lado del cliente que controla la lógica de negocio (edad mínima de inscripción) antes del envío.
+* **Diseño con Flexbox**: Interfaz moderna en Dark Mode utilizando variables CSS y un sistema de cajas flexible y responsivo.
+* **Procesamiento PHP**: Recepción segura y saneada de datos (Nombre, Apellidos, Edad y Email) en el servidor.
+
+## 🖼️ Identidad Visual
+* **Imagen de Portada**: Se ha incluido una fotografía real de una miniatura original pintada por mi, cuyo fondo ha sido editado mediante IA para lograr una integración profesional con el diseño oscuro de la web.
 
 ## 🛠️ Tecnologías utilizadas
-* **HTML5**: Estructura semántica de la página.
-* **PHP 8.x**: Procesamiento de datos y lógica del lado del servidor.
-* **CSS3** (Opcional): Estilos básicos para la interfaz.
+* **PHP 8.x**: Lógica del lado del servidor.
+* **JavaScript (Vanilla)**: Validaciones dinámicas y manipulación del DOM.
+* **CSS3**: Diseño avanzado con Flexbox y variables (`:root`).
+* **HTML5**: Marcado semántico y etiquetas de accesibilidad ARIA.
 
-## 🚀 Instalación y Ejecución
-Para visualizar este proyecto localmente:
-1. Clona el repositorio:
-   ```bash
-   git clone [https://github.com/marcos-sevilla/codenode-semana1.git](https://github.com/marcos-sevilla/codenode-semana1.git)
+## 📂 Estructura del Proyecto
+* `index.php`: Archivo principal con el marcado semántico y la lógica PHP.
+* `style.css`: Hoja de estilos con el diseño Dark Mode y layout Flexbox.
+* `script.js`: Script de validación e interactividad.
+* `portada.png`: Imagen de cabecera con la miniatura original del autor.
+
+## ⚙️ Instalación Local
+1. Clona este repositorio en la carpeta `htdocs` de tu servidor local (XAMPP/Laragon).
+2. Asegúrate de que el módulo **Apache** esté en funcionamiento.
+3. Abre tu navegador y navega a `http://localhost/codenode-semana1`.
+
+---
+**Autor:** Marcos Sevilla  
+**Ciclo:** Grado Superior DAM
